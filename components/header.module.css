@@ -1,0 +1,31 @@
+/* Set min-height to avoid page reflow while session loading */
+.signedInStatus {
+  display: flex;
+  align-items: center;
+  min-height: 4rem;
+  width: 100%;
+}
+
+.statusContent {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.avatar {
+  border-radius: 2rem;
+  float: left;
+  height: 2.8rem;
+  width: 2.8rem;
+  background-color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 5px;
+}
+
+.button {
+  margin-left: auto;
+}
